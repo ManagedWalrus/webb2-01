@@ -1,0 +1,19 @@
+html {
+    box-sizing: border-box;
+    background-color: #F5DEB3;
+    font-family: Calibri;
+}
+
+div {
+    width: 80%;
+    margin: auto;
+    height: 15%vh;
+    margin-top: 150px;
+    background-color: white;
+    text-align: center;
+    box-shadow: 0px 6px 13px -5px black;
+}
+div p{
+    line-height: 15vh;
+    font-size: 40px;
+}

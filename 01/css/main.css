@@ -1,0 +1,9 @@
+html {
+    box-sizing: border-box;
+}
+span:nth-child(even){
+    background: red;
+}
+span:nth-child(odd){
+    background: green;
+}

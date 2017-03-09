@@ -1,0 +1,9 @@
+html {
+    box-sizing: border-box;
+}
+span{
+    background-color: greenyellow;
+}
+p:last-child span:last-child {
+    background: red;
+}

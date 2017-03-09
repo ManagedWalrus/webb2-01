@@ -1,0 +1,21 @@
+html {
+    box-sizing: border-box;
+}
+table{
+    border-collapse: collapse;
+    border-style: none;
+    width: 40%;
+    height: 350px;
+    text-align: center;
+    font-weight: lighter;
+}
+th{
+    background-color: #6C7A89;
+    color: white;
+}
+td:nth-child(odd){
+    background-color: #D2D7D3;
+}
+tr, td{
+    border: 1px solid #6C7A89;
+}

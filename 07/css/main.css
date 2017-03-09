@@ -1,0 +1,9 @@
+html {
+    box-sizing: border-box;
+}
+li:nth-child(even){
+    list-style-image: url(/images/cross.png);
+}
+li:nth-child(odd){
+    list-style-image: url(/images/check.png);
+}

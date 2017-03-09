@@ -1,0 +1,12 @@
+html {
+    box-sizing: border-box;
+}
+
+ol li{
+    color: #597667;
+}
+
+ul li{
+    color: #ED8C2D;
+    list-style: square;
+}

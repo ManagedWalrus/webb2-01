@@ -1,0 +1,27 @@
+html {
+    box-sizing: border-box;
+    font-size: 0px;
+}
+body{
+    margin: 0px;
+}
+div{
+    width: 20%;
+    height: 100vh;
+    display: inline-block;
+}
+.blue{
+    background-color: dodgerblue;
+}
+.red{
+    background-color: red
+}
+.green{
+    background-color: mediumseagreen;
+}
+.yellow{
+    background-color: yellow;
+}
+.grey{
+    background-color: grey;
+}

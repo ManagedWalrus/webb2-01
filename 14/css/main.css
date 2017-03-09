@@ -1,0 +1,10 @@
+table{
+    width: 400px;
+    height: 350px;
+    border-collapse: collapse;
+    border-style: none;
+    background-color: #D2D7D3;
+}
+tr:nth-child(odd) td:nth-child(odd), tr:nth-child(even) td:nth-child(even){
+    background-color: #6C7A89;
+}

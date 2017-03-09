@@ -1,0 +1,9 @@
+html {
+    box-sizing: border-box;
+}
+.ex1{
+    letter-spacing: -2px;
+}
+.ex2{
+    letter-spacing: 4px;
+}

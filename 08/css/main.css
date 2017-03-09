@@ -1,0 +1,11 @@
+html {
+    box-sizing: border-box;
+    font-family: Calibri;
+}
+h1{
+    color: #4169E1;
+}
+h1::first-letter{
+    color: red;
+    font-size: 50px;
+}

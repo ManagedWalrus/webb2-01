@@ -1,0 +1,6 @@
+html {
+    box-sizing: border-box;
+}
+p::first-line{
+    background-color: #FFA500;
+}

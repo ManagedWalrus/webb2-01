@@ -1,0 +1,18 @@
+html {
+    box-sizing: border-box;
+    font-family: Calibri;
+}
+table{
+    text-align: left;
+    width: 30%;
+    border-collapse: collapse;
+    border-style: none;
+}
+tr{
+    background-color: #C8F7C5;
+    border-bottom: 1px solid #2ECC71;
+}
+tr:first-child{
+    background-color: #2ECC71;
+    color: white;
+}

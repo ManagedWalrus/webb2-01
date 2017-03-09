@@ -1,0 +1,14 @@
+html {
+    box-sizing: border-box;
+    font-family: Calibri;
+}
+h1 i {
+    font-weight: lighter;
+    color: orangered;
+}
+p i{
+    color: #5E9CFF;
+}
+li i{
+    color: #5E9CFF;
+}
