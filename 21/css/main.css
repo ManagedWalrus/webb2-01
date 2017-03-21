@@ -1,27 +1,38 @@
 html {
-    
+	box-sizing: border-box;
 }
-blockquote{
-    float: right;
-    background-color: #E4F1FE;
-    width: 250px;
-    position: relative;
-    border: 1px solid black;  
+
+blockquote {
+	float: right;
+	background-color: #E4F1FE;
+	width: 250px;
+	position: relative;
+	border: 1px solid black;
 }
-blockquote:before{
-    content: " ";
-    position: absolute;
-    z-index: 1;
-    top: 2px;
-    left: 2px;
-    bottom: 2px;
-    right: 2px;
-    border: 1px solid black;
+
+blockquote:before {
+	content: " ";
+	position: absolute;
+	z-index: 1;
+	top: 2px;
+	left: 2px;
+	bottom: 2px;
+	right: 2px;
+	border: 1px solid black;
 }
+
 blockquote p{
-    margin: 15px;
+	margin: 15px;
 }
-blockquote p:last-child{
-    font-style: italic;
-    text-align: right;
+blockquote p::before, blockquote p:first-child::after{
+	content: '"';
+}
+
+blockquote p:last-child {
+	font-style: italic;
+	text-align: right;
+	margin-right: 10px;
+}
+blockquote p:last-child::before{
+	content: "- ";
 }

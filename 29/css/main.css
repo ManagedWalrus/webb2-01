@@ -1,3 +1,49 @@
 html {
     box-sizing: border-box;
 }
+body{
+	background-color: #E1E1ED;
+	font-family: Calibri;
+}
+
+div{
+	background: url(https://bibpub.nykoping.se/image/company_logo?img_id=2776757&t=1486947832296) no-repeat bottom right;
+	background-color: white;
+	color: #0A4595;
+	width: 25%;
+	height: 80vh;
+	margin: auto;
+	margin-top: 60px;
+	padding-left: 20px;
+}
+div::before{
+	margin-left: -10px;
+	content: "kalle";
+	width: 25%;
+	height: 80vh;
+	color: #0A4595;
+	background-color: #0A4595;
+	z-index: -1;
+	position: absolute;
+	transform: rotate(10deg);
+}
+div::after{
+	margin-left: -10px;
+	margin-top: -164px;
+	content: "kalle";
+	width: 25%;
+	height: 80vh;
+	color: #EE293C;
+	background-color: #EE293C;
+	z-index: -1;
+	position: absolute;
+	transform: rotate(-10deg);
+}
+div h1{
+	padding-top: 10px;
+}
+div p{
+	color: black;
+	margin-top: 80px;
+	text-align: center;
+}

@@ -12,7 +12,12 @@ tr{
     background-color: #C8F7C5;
     border-bottom: 1px solid #2ECC71;
 }
-tr:first-child{
+th{
     background-color: #2ECC71;
     color: white;
+	padding-left: 5px;
+}
+
+td{
+	padding-left: 5px;
 }

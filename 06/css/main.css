@@ -1,6 +1,6 @@
 html {
     box-sizing: border-box;
 }
-p:first-child{
+h1, p:first-child{
     font-weight: bolder;
 }

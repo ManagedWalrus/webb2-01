@@ -7,11 +7,11 @@ html {
 div {
     width: 80%;
     margin: auto;
-    height: 15%vh;
+    height: 15vh;
     margin-top: 150px;
     background-color: white;
     text-align: center;
-    box-shadow: 0px 6px 13px -5px black;
+    box-shadow: 0px 6px 10px -4px black;
 }
 div p{
     line-height: 15vh;

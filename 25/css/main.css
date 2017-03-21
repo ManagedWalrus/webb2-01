@@ -1,3 +1,41 @@
 html {
     box-sizing: border-box;
+	font-family: Calibri;
+}
+body{
+	display: inline-block;
+	margin-left: 250px;
+}
+div{
+	color: #025820;
+	background-color: rgba(252, 255, 131, .4);
+	text-align: center;
+	width: 850px;
+	height: auto;
+	font-size: 80px;
+	position: relative;
+}
+div::before{
+	content: " kalle";
+	color: rgba(255,255,255,0);
+	z-index: -1;
+	width: 800px;
+	height: 230px;
+	margin-top: -17.5px;
+	margin-left: -400px;
+	float: left;
+	background-color: rgba(252, 255, 131, .4);
+	position: absolute;
+}
+div::after{
+	content: " kalle";
+	color: rgba(255,255,255,0);
+	z-index: -1;
+	width: 900px;
+	height: 150px;
+	margin-top: -280px;
+	margin-left: -450px;
+	float: left;
+	background-color: rgba(252, 255, 131, .4);
+	position: absolute;
 }
