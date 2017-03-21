@@ -1,0 +1,9 @@
+html {
+	box-sizing: border-box;
+	display: inline-block;
+}
+body{
+	margin: 0;
+	background: radial-gradient(at top left, #DB10F2, #8766F0, #0BD4E6);
+	background-attachment: fixed;
+}

@@ -1,3 +1,34 @@
 html {
     box-sizing: border-box;
 }
+div {
+	border: 1px solid black;
+	width: 200px;
+	height: 200px;
+	display: inline-block;
+	margin: 20px;
+}
+.grad1{
+	background: linear-gradient(#64696A, white);
+}
+.grad2 {
+	background: linear-gradient(#64696A, white, #64696A);
+}
+.grad3{
+	background: linear-gradient(to right, #64696A, white);
+}
+.grad4{
+	background: linear-gradient(to right, #64696A, white, #64696A);
+}
+.grad5{
+	background: linear-gradient(to bottom left, #C42021, #FFF500);
+}
+.grad6{
+	background: linear-gradient(to bottom right, #C42021, #FFF500);
+}
+.grad7{
+	background: linear-gradient(to bottom left, #C42021 49%, #FFF500 50%);
+}
+.grad8{
+	background: linear-gradient(to bottom right, #C42021 49%, #FFF500 50%);
+}

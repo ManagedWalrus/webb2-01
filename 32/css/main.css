@@ -1,0 +1,22 @@
+html {
+	box-sizing: border-box;
+}
+div{
+	margin: 20px;
+	width: 200px;
+	height: 200px;
+	display: inline-block;
+	border: 1px solid black;
+}
+.grad1{
+	background: radial-gradient(#717574, white);
+}
+.grad2{
+	background: radial-gradient(white 50%, #717574);
+}
+.grad3{
+	background: radial-gradient(at top right, #FFEB00, #CE1E23);
+}
+.grad4{
+	background: radial-gradient(at bottom right, #FFEB00, #CE1E23);
+}
