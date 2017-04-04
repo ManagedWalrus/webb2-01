@@ -1,0 +1,35 @@
+html {
+	box-sizing: border-box;
+}
+h1{
+	font-family: Calibri;
+	width: 100%;
+	text-align: center;
+	margin: auto;
+	letter-spacing: -2.7rem;
+	font-size: 200px;
+}
+span:first-child{
+	color: rgba(255, 0, 0, .5);
+}
+span:nth-child(2){
+	color: rgba(34, 139, 34, .5);
+}
+span:nth-child(3){
+	color: rgba(0, 0, 255, .5);
+}
+span:nth-child(4){
+	color: rgba(255, 20, 147, .5);
+}
+span:nth-child(5){
+	color: rgba(255, 140, 0, .5);
+}
+span:nth-child(6){
+	color: rgba(0, 255, 255, .5);
+}
+span:nth-child(7){
+	color: rgba(0, 100, 0, .5);
+}
+span:nth-child(8){
+	color: rgba(255, 255, 0, .5);
+}

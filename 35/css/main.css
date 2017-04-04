@@ -1,0 +1,14 @@
+html {
+	box-sizing: border-box;
+}
+body{
+	content: " ";
+	font-size: 0;
+	color: white;
+	display: inline-block;
+	border: 8px solid #0A4595;
+}
+img{
+	padding: 10px;
+	border: 8px solid #EE293C;
+}

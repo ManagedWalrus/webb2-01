@@ -1,0 +1,30 @@
+html {
+	box-sizing: border-box;
+}
+body{
+	font-family: 'Press Start 2P', cursive;
+	font-size: 2rem;
+	text-align: center;
+	background-color: #383F49;
+}
+h1{
+	color: #FFFDD4;
+	position: relative;
+	z-index: 1;
+	text-shadow: 0 3px 5px rgba(0, 0, 0, .5);
+}
+h1::before{
+	content: "Webbutveckling 2";
+	color: #878884;
+	position: absolute;
+	z-index: -1;
+	padding-top: 3px;
+}
+h1::after{
+	content: "Webbutveckling 2";
+	color: #31372C;
+	z-index: -2;
+	padding-top: 6px;
+	position: absolute;
+	margin-left: -1025px;
+}
